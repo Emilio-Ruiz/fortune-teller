@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get("/lottery/lucky", { :controller => "numbers", :action => "winners" })
   get("/", { :controller => "numbers", :action => "winners" })
 
+  get("/zodiacs/aries", { :controller => "numbers", :action => "winners"})
+
   # Let users visit URLs:
 
   # - /lottery/unlucky
