@@ -8,7 +8,16 @@ Rails.application.routes.draw do
   get("/zodiacs/aries", { :controller => "numbers", :action => "winners"})
   get("/zodiacs/leo", {:controller => "numbers", :action => "winners"})
   get("/zodiacs/sagittarius", {:controller => "numbers", :action => "winners"})
-  
+  get("/zodiacs/taurus", {:controller => "numbers", :action => "winners"})
+  get("/zodiacs/virgo", {:controller => "numbers", :action => "winners"})
+  get("/zodiacs/capricorn", {:controller => "numbers", :action => "winners"})
+  get("/zodiacs/gemini", {:controller => "numbers", :action => "winners"})
+  get("/zodiacs/libra", {:controller => "numbers", :action => "winners"})
+  get("/zodiacs/aquarius", {:controller => "numbers", :action => "winners"})
+  get("/zodiacs/cancer", {:controller => "numbers", :action => "winners"})
+  get("/zodiacs/pisces", {:controller => "numbers", :action => "winners"})
+
+  get("/zodiacs/scorpio", {:controller => "numbers", :action => "winners"})
 
   # Let users visit URLs:
 
