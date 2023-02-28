@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   get("/", { :controller => "numbers", :action => "winners" })
 
   get("/zodiacs/aries", { :controller => "numbers", :action => "winners"})
+  get("/zodiacs/leo", {:controller => "numbers", :action => "winners"})
+  get("/zodiacs/sagittarius", {:controller => "numbers", :action => "winners"})
+  
 
   # Let users visit URLs:
 
