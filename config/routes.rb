@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   #get("/zodiacs/aries", { :controller => "numbers", :action => "winners"})
   #get("/zodiacs/leo", {:controller => "numbers", :action => "winners"})
-  get("/zodiacs/sagittarius", {:controller => "numbers", :action => "winners"})
+  #get("/zodiacs/sagittarius", {:controller => "numbers", :action => "winners"})
   get("/zodiacs/taurus", {:controller => "numbers", :action => "winners"})
   get("/zodiacs/virgo", {:controller => "numbers", :action => "winners"})
   get("/zodiacs/capricorn", {:controller => "numbers", :action => "winners"})
@@ -33,7 +33,7 @@ Rails.application.routes.draw do
 
    get("/zodiacs/leo", {:controller => "fire", :action => "lion" })
 
-  # get("/zodiacs/sagittarius", { :controller => "fire", :action => "archer" })
+   get("/zodiacs/sagittarius", { :controller => "fire", :action => "archer" })
   
   # get("/zodiacs/taurus", { :controller, "earth", :action, "bull" })
   # get("/zodiacs/virgo", { :controller => "earth", :action => "maiden" })
