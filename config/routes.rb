@@ -11,13 +11,13 @@ Rails.application.routes.draw do
   #get("/zodiacs/taurus", {:controller => "numbers", :action => "winners"})
   #get("/zodiacs/virgo", {:controller => "numbers", :action => "winners"})
   #get("/zodiacs/capricorn", {:controller => "numbers", :action => "winners"})
-  get("/zodiacs/gemini", {:controller => "numbers", :action => "winners"})
-  get("/zodiacs/libra", {:controller => "numbers", :action => "winners"})
-  get("/zodiacs/aquarius", {:controller => "numbers", :action => "winners"})
-  get("/zodiacs/cancer", {:controller => "numbers", :action => "winners"})
+  #get("/zodiacs/gemini", {:controller => "numbers", :action => "winners"})
+  #get("/zodiacs/libra", {:controller => "numbers", :action => "winners"})
+
+  #get("/zodiacs/cancer", {:controller => "numbers", :action => "winners"})
   get("/zodiacs/pisces", {:controller => "numbers", :action => "winners"})
 
-  get("/zodiacs/scorpio", {:controller => "numbers", :action => "winners"})
+  #get("/zodiacs/scorpio", {:controller => "numbers", :action => "winners"})
 
   # Let users visit URLs:
 
@@ -37,14 +37,17 @@ Rails.application.routes.draw do
   
    get("/zodiacs/taurus", { :controller => "earth", :action => "bull" })
    get("/zodiacs/virgo", { :controller => "earth", :action => "maiden" })
-   get("/zodiacs/capricorn", { :controller => "earth", :action => "goat" })
+
+   get("/zodiacs/capricorn", { :controller => "earth", :action => "goat"})
   
-  # get("/zodiacs/gemini", { :controller => "air", :action => "twins" })
-  # get(" /zodiacs/libra", { :controller => "air", :action => "scales" })
-  # get ("/zodiacs/aquarius", { :controller => "air", :action => "waterbearer" })
+   get("/zodiacs/gemini", { :controller => "air", :action => "twins" })
+
+   get("/zodiacs/libra", { :controller => "air", :action => "scales" })
+
+   get("/zodiacs/aquarius", { :controller => "air", :action => "waterbearer" })
   
-  # get("/zodiacs/cancer " { :controller => "earth" :action => "crab" })
-  # get("/zodiac/ scorpio", { :controller => "Water", :action => "scorpion" })
+   get("/zodiacs/cancer", { :controller => "earth",:action => "crab" })
+   get("/zodiacs/scorpio", { :controller => "water", :action => "scorpion" })
   # get("/zodiacs/pisces", { :controller => "water", :action => "fish " })
 
   # PART 3: MORE R→C→A→V PRACTICE
