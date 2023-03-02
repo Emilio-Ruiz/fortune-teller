@@ -15,7 +15,7 @@ Rails.application.routes.draw do
   #get("/zodiacs/libra", {:controller => "numbers", :action => "winners"})
 
   #get("/zodiacs/cancer", {:controller => "numbers", :action => "winners"})
-  get("/zodiacs/pisces", {:controller => "numbers", :action => "winners"})
+  #get("/zodiacs/pisces", {:controller => "numbers", :action => "winners"})
 
   #get("/zodiacs/scorpio", {:controller => "numbers", :action => "winners"})
 
@@ -48,7 +48,7 @@ Rails.application.routes.draw do
   
    get("/zodiacs/cancer", { :controller => "earth",:action => "crab" })
    get("/zodiacs/scorpio", { :controller => "water", :action => "scorpion" })
-  # get("/zodiacs/pisces", { :controller => "water", :action => "fish " })
+   get("/zodiacs/pisces", { :controller => "water", :action => "fish " })
 
   # PART 3: MORE R→C→A→V PRACTICE
   # ==========================
