@@ -26,7 +26,7 @@ class WaterController < ApplicationController
     end
     
     render({ :template => "layouts/pisces.html.erb" })
-
+  end
   def scorpion
     @horoscope = "All continues to go well professionally, Scorpio. You're feeling physically strong and vigorous. Mentally, however, you might be a bit vague. You may be easily distracted and not as sharp as usual. This isn't a good day to start a new project. Try to concentrate on finishing old tasks and tying up loose ends. You should be ready to go again in a couple of days."
 
@@ -55,5 +55,5 @@ class WaterController < ApplicationController
     
     render({ :template => "layouts/pisces.html.erb" })
   end
-  
+
 end
